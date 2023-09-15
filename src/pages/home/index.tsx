@@ -10,7 +10,7 @@ const Home = () => {
     <Container>
       <h1>Home Page</h1>
       <Button
-        label="aç modal yeni eklemek"
+        label="Yeni modal eklemek için aç"
         onClick={() =>
           dispatch(
             openModal({
