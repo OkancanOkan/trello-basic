@@ -1,0 +1,57 @@
+/* note.css */
+
+.styled-note {
+  border-radius: 10px;
+  position: relative;
+  height: 320px;
+  width: 320px;
+  background-color: white;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.styled-note-top {
+  flex: 1;
+}
+
+.styled-note-top-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.styled-note-top-title {
+  font-size: 1.5rem;
+  overflow-wrap: break-word;
+  margin-bottom: 5px;
+}
+
+.styled-note-top-description {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.styled-note-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.styled-note-bottom-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.styled-note-top-close-button {
+  font-size: 0.9rem;
+  border: none;
+  color: #777;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  cursor: pointer;
+}

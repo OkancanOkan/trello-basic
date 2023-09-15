@@ -1,0 +1,75 @@
+.styled-card-detail-list {
+  display: inline-flex;
+  flex-direction: column;
+  min-width: 290px;
+  min-height: 100px;
+  background-color: whitesmoke;
+  border: 1px;
+  border-radius: 5px;
+  position: relative;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+.styled-card-detail-list-delete {
+  display: none;
+}
+
+.styled-card-detail-list:hover .styled-card-detail-list-delete {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 300ms;
+}
+.styled-card-detail-list-delete:hover {
+  opacity: 1;
+}
+
+.styled-card-detail-list-delete::before,
+.styled-card-detail-list-delete::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: grey;
+}
+
+.styled-card-detail-list-delete::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.styled-card-detail-list-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: green;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.styled-card-detail-list-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.styled-card-detail-list-cardDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0px;
+  gap: 10px;
+  cursor: pointer;
+}

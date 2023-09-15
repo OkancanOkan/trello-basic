@@ -1,0 +1,31 @@
+.styled-card-detail {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  border: solid rgb(220, 233, 215) 1px;
+  border-radius: 5px;
+  min-height: 30px;
+  width: 100%;
+  position: relative;
+  padding-right: 45px;
+  flex-wrap: wrap;
+}
+.styled-card-detail.colour-gray {
+  background-color: rgb(206, 206, 206);
+}
+.styled-card-detail.colour-white {
+  background-color: #ffffff;
+}
+
+.styled-card-detail-form {
+  color: #141414;
+  font-size: 14px;
+  opacity: 0.9;
+  word-break: break-all;
+}
+
+.styled-card-detail-dropdown {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
